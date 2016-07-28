@@ -20,7 +20,7 @@ A plugin to allow searching for API calls and/or searching online from command b
 
 ## Information
 
-* Written by fearless 2016 - [www.LetTheLight.in](http://www.LetTheLight.in)
+* Written by [fearless](https://github.com/mrfearless)  - [www.LetTheLight.in](http://www.LetTheLight.in)
 * Created with the [x64dbg Plugin SDK For x86 Assembler](https://github.com/mrfearless/x64dbg-Plugin-SDK-For-x86-Assembler)
 * A RadASM project (.rap) is used to manage and compile the plugin. The RadASM IDE can be downloaded [here](http://www.softpedia.com/get/Programming/File-Editors/RadASM.shtml)
 * Some plugins make use of the MASM32 SDK found [here](http://www.masm32.com/masmdl.htm)
