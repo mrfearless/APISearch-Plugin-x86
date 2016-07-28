@@ -1,0 +1,6 @@
+#define MANIFEST 						24
+1						MANIFEST  DISCARDABLE "APISearch.xml"
+101						RCDATA    DISCARDABLE "Images/APISearch.png"
+102						RCDATA    DISCARDABLE "Images/search_google.png"
+103						RCDATA    DISCARDABLE "Images/search_msdn.png"
+104						RCDATA    DISCARDABLE "Images/search_pinvoke.png"

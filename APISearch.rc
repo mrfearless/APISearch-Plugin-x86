@@ -1,0 +1,3 @@
+;#include "Res/APISearchDlg.rc"
+#include "Res/APISearchRes.rc"
+#include "Res/APISearchVer.rc"

@@ -1,0 +1,36 @@
+;--------------------------------------------------------------------------------------------------------
+; x64_dbg plugin SDK for Masm32 - fearless 2015
+;
+; Export definition file for your plugin
+;--------------------------------------------------------------------------------------------------------
+
+LIBRARY APISearch
+EXPORTS ; Main plugin exports - only pluginit is required, but others can be included for ease of use.
+        ;
+        pluginit
+        plugstop
+        plugsetup
+        ;
+        ; Plugin callbacks - only export (uncomment) the callbacks you are using in your plugin, comment out the others.
+        ;
+        ;CBINITDEBUG
+        ;CBSTOPDEBUG
+        ;CBCREATEPROCESS
+        ;CBEXITPROCESS
+        ;CBCREATETHREAD
+        ;CBEXITTHREAD
+        ;CBSYSTEMBREAKPOINT
+        ;CBLOADDLL
+        ;CBUNLOADDLL
+        ;CBOUTPUTDEBUGSTRING
+        ;CBEXCEPTION
+        ;CBBREAKPOINT
+        ;CBPAUSEDEBUG
+        ;CBRESUMEDEBUG
+        ;CBSTEPPED
+        ;CBATTACH
+        ;CBDETACH
+        ;CBDEBUGEVENT
+        CBMENUENTRY
+        ;CBWINEVENT
+        ;CBWINEVENTGLOBAL
