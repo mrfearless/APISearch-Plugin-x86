@@ -9,14 +9,11 @@
 About
 -----
 
-APISearch plugin for x64dbg (32bit plugin), created with the x64dbg plugin for masm
-by fearless 2016 - www.LetTheLight.in
+APISearch Plugin (x86) For x64dbg (32bit plugin)
+by fearless - www.LetTheLight.in
 
-The x64dbg plugin SDK for JWasm64 can be downloaded from here:
-https://bitbucket.org/mrfearless/x64dbg-plugin-sdk-for-JWasm64/overview
-
-The x64dbg plugin SDK for Masm can be downloaded from here:
-https://bitbucket.org/mrfearless/x64dbg-plugin-sdk-for-masm/overview
+Created with the x64dbg Plugin SDK For x86 Assembler
+https://github.com/mrfearless/x64dbg-Plugin-SDK-For-x86-Assembler
 
 
 Overview
