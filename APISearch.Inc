@@ -16,9 +16,9 @@ includelib ole32.lib
 
 PluginDlgProc           PROTO :DWORD, :DWORD, :DWORD, :DWORD
 SearchForAPIKeyword     PROTO :DWORD
-cbSearchGoogle          PROTO :DWORD, :DWORD
-cbSearchMSDN            PROTO :DWORD, :DWORD
-cbSearchPinvoke         PROTO :DWORD, :DWORD
+cbSearchGoogle          PROTO C :DWORD, :DWORD
+cbSearchMSDN            PROTO C :DWORD, :DWORD
+cbSearchPinvoke         PROTO C :DWORD, :DWORD
 APISearchLoadMenuIcon   PROTO :DWORD, :DWORD
 
 .CONST

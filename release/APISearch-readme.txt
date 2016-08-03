@@ -2,7 +2,7 @@
 ;
 ; APISearch-readme.txt
 ;
-; v1.0.0.3 - Last updated: 26/06/2016 
+; v1.0.0.4 - Last updated: 03/08/2016 
 ;
 ;-------------------------------------------------------------------------------------
 
@@ -33,6 +33,7 @@ Features
 Notes
 -----
 
+- 03/08/2016 Added fix for registered commands using C prototype, otherwise they crashed
 - 26/06/2016 Updated x64dbg SDK for masm to version 1.0.0.3 and recompiled plugin.
 - 01/03/2016 Updated x64dbg SDK for masm to version 1.0.0.2 and recompiled plugin.
 - Added function APISearchLoadMenuIcon to load png resource image as raw bytes 

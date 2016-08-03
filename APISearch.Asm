@@ -3,8 +3,9 @@
 ;
 ; APISearch.asm
 ;
-; v1.0.0.2 - Last updated: 01/03/2016 
+; v1.0.0.4 - Last updated: 03/08/2016 
 ; 
+; - Added fix for registered commands using C prototype, otherwise they crashed
 ; - Added function APISearchLoadMenuIcon to load png resource image as raw bytes 
 ; - Added menu icon for plugin (uses _plugin_menuseticon)
 ; - Added menu entry icons for google, msdn and pinvoke (uses _plugin_menuentryseticon) 
@@ -234,7 +235,7 @@ CBMENUENTRY endp
 ;=====================================================================================
 ; Search Google
 ;-------------------------------------------------------------------------------------
-cbSearchGoogle PROC PUBLIC USES EBX argc:DWORD, argv:DWORD
+cbSearchGoogle PROC C PUBLIC USES EBX argc:DWORD, argv:DWORD
     LOCAL dwSearchTerm:DWORD
     
     .IF argc == 1 ; just launch google if google is only thing typed
@@ -264,7 +265,7 @@ cbSearchGoogle endp
 ;=====================================================================================
 ; Search MSDN
 ;-------------------------------------------------------------------------------------
-cbSearchMSDN PROC PUBLIC USES EBX argc:DWORD, argv:DWORD
+cbSearchMSDN PROC C PUBLIC USES EBX argc:DWORD, argv:DWORD
     LOCAL dwSearchTerm:DWORD
     
     .IF argc == 1 ; just launch google if google is only thing typed
@@ -294,7 +295,7 @@ cbSearchMSDN endp
 ;=====================================================================================
 ; Search Pinvoke
 ;-------------------------------------------------------------------------------------
-cbSearchPinvoke PROC PUBLIC USES EBX argc:DWORD, argv:DWORD
+cbSearchPinvoke PROC C PUBLIC USES EBX argc:DWORD, argv:DWORD
     LOCAL dwSearchTerm:DWORD
     
     .IF argc == 1 ; just launch google if google is only thing typed

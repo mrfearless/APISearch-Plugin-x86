@@ -61,20 +61,20 @@ Menu=1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
 [VerInf]
 Nme=VERINF1
 ID=1
-FV=1.0.0.2
-PV=1.0.0.2
+FV=1.0.0.4
+PV=1.0.0.4
 VerOS=0x00000004
 VerFT=0x00000002
 VerLNG=0x00000409
 VerCHS=0x000004B0
-ProductVersion=1.0.0.2
+ProductVersion=1.0.0.4
 ProductName=APISearch
 OriginalFilename=APISearch.dp32
 LegalTrademarks=fearless (C) 2016 www.LetTheLight.in
 LegalCopyright=fearless (C) 2016 www.LetTheLight.in
 InternalName=APISearch.dll
 FileDescription=APISearch plugin for x32dbg
-FileVersion=1.0.0.2
+FileVersion=1.0.0.4
 CompanyName=fearless @ www.LetTheLight.in
 [Group]
 Group=Assembly,Resources,Misc
@@ -106,7 +106,7 @@ MilestoneOnTime=2
 MilestoneOnDate=0
 MilestoneOnDateWhen=1
 MilestoneOnDateStatus=0
-MilestoneOnDateDate=28
+MilestoneOnDateDate=3
 MilestoneOnDateTimeYear=2015
 MilestoneOnDateTimeMonth=4
 MilestoneOnDateTimeDate=16
@@ -130,18 +130,18 @@ ProductVer2Range=0
 ProductVer3Range=0
 ProductVer4Range=0
 [PTimer]
-PTimer=471442557
+PTimer=493078509
 [Collapse]
-1=22282256,7
+1=5537808,6
 2=
 3=
 6=
 4=
 [Size]
-1=0,0,1353,587,13175
-2=0,0,0,0,1840
+1=0,0,1353,587,183
+2=0,0,0,0,673
 3=0,0,0,0,0
-6=0,0,1353,587,202
+6=0,0,1353,587,867
 5=
 4=0,0,0,0,1
 [GroupExpand]
